@@ -1,0 +1,26 @@
+{
+  "name": "ts-app",
+  "version": "1.0.0",
+  "description": "TypeScript: Tipos avanzados y funciones",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amepablo/TypeScript-Tipos-Avanzados.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amepablo/TypeScript-Tipos-Avanzados/issues"
+  },
+  "homepage": "https://github.com/amepablo/TypeScript-Tipos-Avanzados#readme",
+  "dependencies": {
+    "typescript": "^4.7.4"
+  },
+  "devDependencies": {
+    "ts-node": "^10.8.1"
+  }
+}
