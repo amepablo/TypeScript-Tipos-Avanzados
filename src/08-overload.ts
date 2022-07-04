@@ -11,7 +11,13 @@ function parseStr(input: string | string[]): string | string[] {
 }
 
 const rtaArray = parseStr('Pablo');
+if (Array.isArray(rtaArray)) {
+  rtaArray.reverse();
+}
 console.log('rtaArray', 'Pablo =>', rtaArray);
 
 const rtaStr = parseStr(['P','a','b','l','o']);
+if (typeof rtaStr === 'string') {
+  rtaStr.toLowerCase();
+}
 console.log('rtaStr', "['P','a','b','l','o'] =>" ,rtaStr);
