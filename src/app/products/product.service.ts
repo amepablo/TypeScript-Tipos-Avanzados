@@ -35,6 +35,10 @@ export const updateProduct = (id: Product['id'], changes: UpdateProductDto): Pro
 
 export const findProducts = (dto: findProductsDTO): Product[] => {
   // dto.color = 'blue';
+  // dto.isNew = true;
+  dto.tags = [];
+  dto.tags?.pop();
+  dto.tags?.push();
   return products;
 }
 

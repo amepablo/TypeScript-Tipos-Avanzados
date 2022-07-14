@@ -27,6 +27,7 @@ findProducts({
   title: 'p1',
   color: 'red',
   createdAt: new Date(),
-  isNew: true
+  isNew: true,
+  tags: ['as', 'aasd']
 
 })
